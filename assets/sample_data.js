@@ -602,3 +602,82 @@ export const carts = [
     __v: 0,
   },
 ];
+
+export const categories = [
+  "men's clothing",
+  "jewelery",
+  "electronics",
+  "women's clothing",
+];
+
+export const users_small = [
+  { id: 1, name: { firstname: "John", lastname: "Smith" } },
+  { id: 2, name: { firstname: "Stephen", lastname: "Halk" } },
+];
+export const products_small = [
+  {
+    id: 1,
+    price: 1,
+  },
+];
+export const carts_small = [
+  {
+    id: 1,
+    userId: 1,
+    products: [
+      {
+        productId: 1,
+        quantity: 4,
+      },
+    ],
+  },
+  {
+    id: 2,
+    userId: 2,
+    products: [
+      {
+        productId: 1,
+        quantity: 3,
+      },
+    ],
+  },
+];
+
+export const user_geo = [
+  {
+    id: 1,
+    address: {
+      geolocation: {
+        lat: "0",
+        long: "0",
+      },
+    },
+  },
+  {
+    id: 2,
+    address: {
+      geolocation: {
+        lat: "120",
+        long: "120",
+      },
+    },
+  },
+  {
+    id: 3,
+    address: {
+      geolocation: {
+        lat: "121",
+        long: "121",
+      },
+    },
+  },
+  {
+    id: 4,
+    address: {
+      geolocation: {
+        lat: "-120",
+        long: "120",
+      },
+    },
+  },
+];

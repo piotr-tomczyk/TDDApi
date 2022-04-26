@@ -1,13 +1,4 @@
-import { getCartData, getProductData, getUserData } from "./fetchData";
-const test = async () => {
-  const users = await getUserData();
-  console.log(users);
-  const products = await getProductData();
-  console.log(products);
-  const carts = await getCartData();
-  console.log(carts);
-};
-
+import { init, viewHandler } from "./viewHandler";
 window.onload = async () => {
-  await test();
+  await init();
 };
